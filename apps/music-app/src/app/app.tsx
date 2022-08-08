@@ -18,7 +18,7 @@ import { SongMock } from '@apoloplay/mocks';
 export const App: FC = () => {
   useEffect(() => {
     const fetchSongs = async () => {
-      const response = await fetch('http://localhost:4200/songs');
+      const response = await fetch('http://localhost:3001/songs');
       response
         .json()
         .then((data: Song[]) => {
@@ -30,7 +30,7 @@ export const App: FC = () => {
     };
     fetchSongs();
     const fetchArtists = async () => {
-      const response = await fetch('http://localhost:4200/artists');
+      const response = await fetch('http://localhost:3001/artists');
       response
         .json()
         .then((data: Artist[]) => {

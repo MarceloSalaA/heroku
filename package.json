@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "open-cli dist/apps/music-app/index.html"
+    "start": "node dist/apps/music-service/main"
   },
   "private": true,
   "dependencies": {

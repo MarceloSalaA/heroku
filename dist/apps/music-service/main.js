@@ -217,6 +217,13 @@ module.exports = require("mongoose");
 
 module.exports = require("tslib");
 
+/***/ }),
+
+/***/ "path":
+/***/ ((module) => {
+
+module.exports = require("path");
+
 /***/ })
 
 /******/ 	});
@@ -256,14 +263,17 @@ const express = __webpack_require__("express");
 const mongoose_1 = __webpack_require__("mongoose");
 const routes_1 = __webpack_require__("./apps/music-service/src/app/routes/index.ts");
 const cors = __webpack_require__("cors");
+const path = __webpack_require__("path");
 // `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@$cluster1.esmluzr.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`
 console.log(`mongodb+srv://apolo:4p0l0_pl4y@$cluster0.esmluzr.mongodb.net/music-local?retryWrites=true&w=majority`);
 mongoose_1.default.connect(`mongodb+srv://apolo:4p0l0_pl4y@$cluster0.esmluzr.mongodb.net/music-local?retryWrites=true&w=majority`);
+const musicAppPath = path.join(__dirname, '..', '/music-app');
 const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(routes_1.default);
+app.use('/app', express.static(musicAppPath));
 const PORT = process.env.PORT || 3001;
 const server = app.listen(PORT, () => {
     console.log(`Listening at http://localhost:${PORT}/songs`);

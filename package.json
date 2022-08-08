@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "node dist/apps/music-service/main"
+    "start": "node dist/apps/music-service/main",
+    "build": "nx run-many --target=build --all --maxParallel=4"
   },
   "private": true,
   "dependencies": {

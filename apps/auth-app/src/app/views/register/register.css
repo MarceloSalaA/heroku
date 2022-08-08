@@ -1,0 +1,53 @@
+.forma-registro {
+  width: 400px;
+  background: #737373;
+  padding: 30px;
+  margin: auto;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.forma-registro h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.cajatexto {
+  width: 100%;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #ffffff;
+  font-family: 'calibri';
+  font-size: 15px;
+}
+.cajatexto:hover {
+  box-shadow: 0px 0px 4px 2px rgba(0, 204, 255, 1);
+}
+.forma-registro .boton_registrar {
+  width: 100%;
+  background: #0efe0e7d;
+  border: none;
+  padding: 10px;
+  color: white;
+  margin: 10px 0;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 0 4px 0 #07862778;
+}
+.boton_registrar:hover {
+  cursor: pointer;
+  background-color: #79fb797d;
+}
+.boton_registrar:active {
+  box-shadow: none;
+  transform: translateY(4px);
+}
+
+.forma-registro p {
+  text-align: center;
+}

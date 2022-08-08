@@ -1,0 +1,31 @@
+.title_populares {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.populares {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 95%;
+  padding: 24px;
+
+  overflow-x: scroll;
+}
+
+.artists {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.test {
+  display: flex;
+  flex-direction: row;
+
+  overflow-x: scroll;
+
+  width: 95%;
+  padding: 24px;
+}

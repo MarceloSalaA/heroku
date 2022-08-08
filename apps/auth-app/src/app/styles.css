@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.app {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  padding-top: 100px;
+  justify-content: center;
+}
+.app-logo {
+  width: 100px;
+  height: 100px;
+}
+.img-background {
+  background: #2788b2;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 50%;
+}
+.app-name {
+  display: flex;
+  color: white;
+  font-weight: 700;
+  font-size: 100px;
+  padding-left: 24px;
+  background: linear-gradient(to right, #2788b2, #31fbf8);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.app-name-play {
+  display: flex;
+  align-items: center;
+  padding-left: 4px;
+  font-size: 80px;
+}
+
+.content-app {
+  display: flex;
+  background: #737373;
+  padding: 12px 32px 12px 32px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}

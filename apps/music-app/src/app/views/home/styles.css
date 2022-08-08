@@ -1,0 +1,51 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  height: 72vh;
+}
+
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 2em;
+}
+
+.greetings-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.message {
+  padding-top: 50px;
+
+  max-width: 400px;
+
+  font-style: italic;
+  text-align: center;
+  font-size: 1em;
+}
+.enphasis {
+  font-size: 1.5em;
+}
+
+.divider {
+  width: 125%;
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}

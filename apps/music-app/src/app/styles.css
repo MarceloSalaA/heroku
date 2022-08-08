@@ -1,0 +1,48 @@
+.body-container {
+  overflow: scroll;
+  height: 100vh;
+  max-height: 100vh;
+}
+
+.content {
+  display: flex;
+  margin-top: 110px;
+  margin-left: 265px;
+  margin-right: 265px;
+
+  min-height: 70vh;
+  max-height: 70vh;
+
+  flex-direction: column;
+
+  color: white;
+
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: saturate(180%) blur(20px);
+
+  box-shadow: 0px 0px 32px 2px black;
+
+  padding: 12px;
+  border-radius: 8px;
+}
+.reproducer {
+  display: flex;
+
+  margin-left: 265px;
+  margin-right: 265px;
+
+  min-height: 11vh;
+  max-height: 11vh;
+
+  flex-direction: column;
+
+  color: white;
+
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: saturate(180%) blur(20px);
+
+  box-shadow: 0px 8px 32px 2px black;
+
+  padding: 12px;
+  border-radius: 8px;
+}

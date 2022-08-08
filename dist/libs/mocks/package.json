@@ -1,0 +1,13 @@
+{
+  "name": "@apoloplay/mocks",
+  "version": "0.0.1",
+  "type": "commonjs",
+  "main": "./src/index.js",
+  "typings": "./src/index.d.ts",
+  "dependencies": {},
+  "peerDependencies": {
+    "@apoloplay/definitions": "0.0.1",
+    "mongoose": "^6.4.3",
+    "tslib": "^2.3.0"
+  }
+}

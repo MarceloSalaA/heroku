@@ -1,0 +1,12 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "auth-app": "apps/auth-app",
+    "authentication-service": "apps/authentication-service",
+    "definitions": "libs/definitions",
+    "mocks": "libs/mocks",
+    "music-app": "apps/music-app",
+    "music-service": "apps/music-service"
+  }
+}
